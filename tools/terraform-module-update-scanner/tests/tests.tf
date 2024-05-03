@@ -49,7 +49,7 @@ module "git_ssh_latest" {
   source = "git::ssh://git@github.com/GoogleCloudPlatform/terraform-google-lb-http.git?ref=1.0.10"
 }
 module "git_ssh_outdated" {
-  source = "git::ssh://git@github.com/GoogleCloudPlatform/terraform-google-lb-http.git?ref=1.0.1"
+  source = "git::ssh://git@github.com/GoogleCloudPlatform/terraform-google-lb-http.git?ref=1.0.10"
 }
 module "module_subdir_outdated_example" {
   source = "git::ssh://git@github.com/hashicorp/terraform.git//modules/cloud?ref=v0.12.0-alpha4"
