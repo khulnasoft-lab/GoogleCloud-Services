@@ -20,7 +20,7 @@ provider "google" {
 
 module "project-services" {
   source  = "terraform-google-modules/project-factory/google//modules/project_services"
-  version = "4.0.0"
+  version = "4.0.1"
 
   project_id = var.project_id
 

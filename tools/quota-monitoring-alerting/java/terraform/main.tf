@@ -22,7 +22,7 @@ provider "google" {
 # Enable Cloud Resource Manager API
 module "project-service-cloudresourcemanager" {
   source  = "terraform-google-modules/project-factory/google//modules/project_services"
-  version = "4.0.0"
+  version = "4.0.1"
 
   project_id = var.project_id
 
@@ -34,7 +34,7 @@ module "project-service-cloudresourcemanager" {
 # Enable APIs
 module "project-services" {
   source  = "terraform-google-modules/project-factory/google//modules/project_services"
-  version = "4.0.0"
+  version = "4.0.1"
 
   project_id = var.project_id
 
